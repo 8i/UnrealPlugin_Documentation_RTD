@@ -19,8 +19,9 @@ Support
    :titlesonly:
    :maxdepth: 1 
 
-    Installation
-    Quick Start
-    Classes/index
-    Troubleshooting
-    Support
+   index
+   Installation
+   Quick Start
+   Classes/index
+   Troubleshooting
+   Support
