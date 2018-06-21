@@ -1,22 +1,26 @@
-8i Unreal Plugin documentation
-=============================
+============================================================
+8i Unreal Plugin Documentation
+============================================================
 
-    **Requirements**
-        - Unreal 4.16.2
+Support
+------------------------------------------------------------
 
-    **Supported Platforms**
-        - Windows X64
+**Requirements**
+    - Unreal 4.16.2
 
-    **Supported Rendering API**
-        - DX11
+**Supported Platforms**
+    - Windows X64
 
-    Contents:
+**Supported Rendering API**
+    - DX11
 
-    .. toctree::
-        :maxdepth: 1
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :maxdepth: 1 
 
-        Installation
-        Quick Start
-        Classes/index
-        Troubleshooting
-        Support
+    Installation
+    Quick Start
+    Classes/index
+    Troubleshooting
+    Support
