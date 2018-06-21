@@ -3,7 +3,7 @@ Quick Start
 ============================================================
 
 Create a scene
-------------------------------------------
+------------------------------------------------------------
 
 1. Install the HVR plugin ( see Installation for steps )
 2. Within the root folder of the project ( The same folder contains the PROJECT_NAME.uproject ) create a new folder called 'HVR'
@@ -16,7 +16,7 @@ Create a scene
 9. Type 'example_data' into the 'Data Name' slot of the HVRAsset and press enter
 
 Create a build
-----------------
+------------------------------------------------------------
 
 There are no special steps when creating a build.
 

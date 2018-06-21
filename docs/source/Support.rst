@@ -19,7 +19,6 @@ Providing an example project and your computer hardware specifications will help
     https://help.ea.com/en-nz/help/pc/how-to-gather-dxdiag-information/
 
 
-
 **Community Slack**
 
 Contact us for an invite, if you haven’t received one

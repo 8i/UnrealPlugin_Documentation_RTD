@@ -3,7 +3,7 @@ Installation
 ============================================================
 
 Installation
-------------
+------------------------------------------------------------
 
 1. Create a new Unreal project
 2. Close the Unreal Editor
@@ -15,7 +15,7 @@ Installation
 8. Ensure the 'HVR' plugin is listed and is enabled
 
 Updating
---------
+------------------------------------------------------------
 
 1. Close the Unreal Editor.
 2. Delete the 'HVR' folder from your project's 'Plugin' folder
