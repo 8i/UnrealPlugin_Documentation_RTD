@@ -26,8 +26,8 @@ Parameters
     Should this HVR loop?
 
 **Render Method**
-	- FastCubes [Default]
-		- The recommended way for rendering content.
+    - FastCubes [Default]
+        - The recommended way for rendering content.
     - Point Sprite
         - Renders the actor with hard edges.
         - Renders faster than PointBlend
