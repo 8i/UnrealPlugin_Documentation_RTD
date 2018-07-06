@@ -15,9 +15,8 @@ Support
     - DX11
 
 .. toctree::
-   :hidden:
-   :titlesonly:
-   :maxdepth: 1 
+   :maxdepth: 2
+   :caption: Contents
 
    index
    Installation
