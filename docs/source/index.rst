@@ -6,7 +6,7 @@ Support
 ------------------------------------------------------------
 
 **Requirements**
-    - Unreal 4.19.2
+    - Unreal 4.25
 
 **Supported Platforms**
     - Windows X64
