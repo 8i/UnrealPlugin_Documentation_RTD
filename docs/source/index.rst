@@ -6,7 +6,8 @@ Support
 ------------------------------------------------------------
 
 **Requirements**
-    - Unreal 4.25
+    - Unreal Engine 4.25
+    - Visual Studio 2019(any edition will do)
 
 **Supported Platforms**
     - Windows X64
