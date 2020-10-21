@@ -2,21 +2,54 @@
 Installation
 ============================================================
 
-Installation
-------------------------------------------------------------
+Adding the HVR Plugin to an existing project
+--------------------------------------------
+- Close the Unreal Editor
+- If one does not already exist, create a new folder in your project and name it 'Plugins'
+- Unzip the donwload package and copy the `plugin\HVR` folder to your `Plugins` folder. The final structure should look like:
 
-1. Create a new Unreal project(C++ project). If you happened to have a Blueprint only project, under the menu File -> New C++ Class -> None -> Name: MyDummy(or any class name you like), and leave other fields intact. After clicking "Create Class" button, Unreal will generate a class and a build system along with that.
-2. Close the Unreal Editor
-3. If one does not already exist, create a new folder in your project directory and name it 'Plugins'
-4. Copy the contents in 'plugins\HVR' folder from the downloaded build and copy into the 'Plugins' folder
-5. Launch the Unreal Editor and load the project
-6. Open the 'Plugins' window from 'Edit/Plugins' at the top of the Editor window.
-7. In the left panel, scroll down and click on the 'Project/Other' category
-8. Ensure the 'HVR' plugin is listed and is enabled
+::
 
-Updating
-------------------------------------------------------------
+    Plugins
+        |
+        ----HVR
+            |
+            ----Config
+            ----Content
+            ----Resources
+            ----Source
+            ----ThirdParty
+            ----HVR.uplugin
 
-1. Close the Unreal Editor.
-2. Delete the 'HVR' folder from your project's 'Plugin' folder
-3. Proceed with the steps above in Installation
+
+- Launch the Unreal Editor and load your project
+- Open the 'Plugins' window from 'Edit/Plugins' at the top of the Editor window.
+- In the left panel, scroll down and click on the 'Project/Other' category
+- Ensure the 'HVR' plugin is listed and is enabled
+
+Setting up Visual Studio Solution
+---------------------------------
+- Right click on `HVR_Plugin_Example.uproject` and select `Generate Visual Studio project files`. If you have multiple version of Unreal Engine installed, make sure you also choose `Switch Unreal Engine version...` and select the currently supported Unreal Engine version.
+- Open `HVR_Plugin_Example.sln`
+- Set *Games/HVR_Plugin_Example* as the startup project.
+- Depending on if you need to debug into Unreal Engine code, you can choose build configuration as `Debug Editor` for complete debuggable Unreal Engine, game and plugin code; or choose `Debug Game Editor` for just debugging game and plugin code; or choose `Development Editor` as an reasonably optimised Unreal Engine, game and plugin code. Note if you want to debug into Unreal Engine code, you need to build Unreal Engine from source. See https://docs.unrealengine.com/en-US/Programming/Development/BuildingUnrealEngine/index.html
+- Press F5 to build and run.
+
+Debugging Packaged Builds
+-------------------------
+- Open the Unreal Editor
+- Open the Project
+- From the file menu select `Package Project/Packaging Settings`
+- Ensure that the `Build Configuration` is `DebugGame`
+- Ensure that `Include Debug Files` is ticked
+- From the file menu select `Package Project/Windows/Windows (64bit)`
+- Select a folder and wait for the build to complete
+- Once complete, launch `HVR_Plugin_Example.exe`
+- Open `HVR_Plugin_Example.sln`
+- Attach the Debugger to the HVR_Plugin_Example process
+
+Updating To A Newer Version
+---------------------------
+- Close the Unreal Editor.
+- Delete the 'HVR' folder from your project's 'Plugin' folder
+- Proceed with the steps above in `Adding the HVR Plugin to an existing project`
