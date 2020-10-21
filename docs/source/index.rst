@@ -22,5 +22,6 @@ Support
    Installation
    Quick Start
    Classes/index
+   Known Issues
    Troubleshooting
    Support
