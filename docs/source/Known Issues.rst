@@ -15,10 +15,6 @@ Lighting and Shadowing
 ----------------------
 There is no support of lighting or shadowing on the ``HvrActor`` at the moment.
 
-Thumbnail Rendering
--------------------
-Thumbnail rendering of ``HVRLinkAsset`` is still showing black silhouettes.
-
 VEP Codec Support
 -----------------
 As Unreal Engine doesn't support OpenGL on Windows, there's no VEP support on Windows Unreal Engine.
