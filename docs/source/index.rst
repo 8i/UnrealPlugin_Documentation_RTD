@@ -6,14 +6,11 @@ Support
 ------------------------------------------------------------
 
 **Requirements**
-    - Unreal Engine 4.25
+    - Unreal Engine 4.27
     - Visual Studio 2019(any edition will do)
 
 **Supported Platforms**
     - Windows X64
-
-**Supported Rendering API**
-    - DX11
 
 .. toctree::
    :maxdepth: 2
