@@ -4,7 +4,7 @@ PATActor
 
 ``PAtActor`` is the main object you will be interacting with from the 8i Unreal Plugin.
 
-A ``PATActor`` can specify a data URI and be used to render HVR content.
+A ``PATActor`` can specify a data URI and be used to render PAT content.
 
 How To Create
 -------------
@@ -15,36 +15,36 @@ How To Create
 Parameters
 ----------
 
+## Audio 
+
 **Attentuation Parameters**
     Modify this object to correctly model the 3D sound emanating from the PATActor
+	
+## EightI	
 
 **PAT Data Asset**
     This links the PATActor to the PATAsset it should load during play.    
 
 **Enable Logging**
-    Should this HVR begin playing as soon as it is created?
+    Should a log be created.
 
 **Use Verbosity**
-    Should this HVR loop?
+    Should verbose output be used in the log if created.
 
 **Loop Playback**
-    - FastCubes [Default]
-        - The recommended way for rendering content. Renders each voxel in an adjacent cube style and avoid holes.
-    - Point Sprite
-        - Renders the actor with hard edges.
-        - Renders faster than PointBlend
+    Should playback be looped after finished?
 
-Actions
--------
+## Material
 
-**Open()**
-    Blueprint function to prepare the native library to fetch, decode, and render the remote or local data linked in the PATAsset. This must be called before Play() or Pause()
+**Render Mode**
+    Unlit -> the actor will be treated as an unlit material.
+	Lit -> The actor will be treated as a lit material.
 
-**Close()**
-    Closes out native libraries created in Open()
+**Emissive Strength**
+    Modifier to the relative color brightness in the Unlit Render Mode. Values range from 0 to 10.0
 
-**Play()**
-    Starts playback of the PatActor.
-
-**Pause()**
-    Pauses playback of the PatActor
+**Specular**
+    Modifier that adjusts light reflectivity. Values range from 0.0 to 1.0
+	
+**Roughness**
+    Modifer that adjusts light scattering. Values range from 0.0 to 1.0

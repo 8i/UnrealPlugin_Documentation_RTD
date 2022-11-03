@@ -1,7 +1,7 @@
 # UnrealPlugin_Documentation_RTD
 
 The 8i Unreal Plugin is a plugin for the Unreal game engine.
-It adds the ability to render and interact with hvr content.
+It adds the ability to render and interact with PAT content.
 
 # Documentation
 
