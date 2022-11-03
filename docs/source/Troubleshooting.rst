@@ -2,10 +2,15 @@
 Troubleshooting
 ============================================================
 
-There's no 8i holograms can be seen in the packaged build
+## Pat holograms are not casting any shadows.
 ------------------------------------------------------------
 
-Make sure you ``cooked`` the contents. This is a separated process from Unreal Engine's cooking, and it can be done by clicking the big 8i logo on the main toolbar and choose ``Rebuild 8i Contents``, before building or packaging the game. In your final game, you should see an ``8iCooked`` folder, with files like this:
+Please be sure to set the lighting in the scene to stationary or moveable. Pat meshes are dynamic instances that will not recieve lighting when using static lights.
 
-.. image:: Images/cooked_contents.png
-	:alt: You should see the cooked .8i files here.
+## Remote PAT manifests are not playing.
+
+Please ensure that the manifests are properly hosted.
+
+## Local PAT manifest are playing in the editor but not my built executable.
+
+Please ensure that Local assests are being properly packaged during the build step. Ensure that *Additional Non-Asset Directories To Copy* are being set correctly.

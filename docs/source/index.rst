@@ -6,7 +6,7 @@ Support
 ------------------------------------------------------------
 
 **Requirements**
-    - Unreal Engine 4.27
+    - Unreal Engine 4.27.2
     - Visual Studio 2019(any edition will do)
 
 **Supported Platforms**
