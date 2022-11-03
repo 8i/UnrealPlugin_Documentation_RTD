@@ -7,20 +7,22 @@ PATActor
 A ``PATActor`` can specify a data URI and be used to render PAT content.
 
 How To Create
--------------
+=============
 
 1. From ``Place Actor`` window, search ``PATActor``, or you can scroll down from the ``All Classes`` list, then drag and drop an ``PATActor`` to your scene.
 2. In the Details Panel, expand the ``PATActor`` options, use Content Browser, or browsing from the dropdown list to assign an ``PATAsset`` asset to the ``PATActor``.
 
 Parameters
-----------
+==========
 
-## Audio 
+Audio 
+-----
 
 **Attentuation Parameters**
     Modify this object to correctly model the 3D sound emanating from the PATActor
 	
-## EightI	
+EightI	
+------
 
 **PAT Data Asset**
     This links the PATActor to the PATAsset it should load during play.    
@@ -34,7 +36,8 @@ Parameters
 **Loop Playback**
     Should playback be looped after finished?
 
-## Material
+Material
+--------
 
 **Render Mode**
     Unlit -> the actor will be treated as an unlit material.
