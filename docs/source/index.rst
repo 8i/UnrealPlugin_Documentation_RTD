@@ -22,4 +22,5 @@ Support
    Classes/index
    Known Issues
    Troubleshooting
+   Release Notes
    Support
