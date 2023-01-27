@@ -2,6 +2,12 @@
 Release Notes
 ==================================
 
+v0.5.1
+------
+- [FEATURE ENHANCEMENT] More performant texture uploads
+- [BUGFIX] Bugfix for creating packaged builds.
+- [BUGFIX] Bugfix for memory corruption during asset load in packaged builds.
+
 v0.5.0
 ------
 
