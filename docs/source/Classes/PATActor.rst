@@ -47,6 +47,15 @@ These values are only settable when the asset is not currently open. They contro
 **Playback Speed**
     This sets the playback speed to be faster or slower depending on the multiplier chosen.
 	
+**Enable Hardware Decode If Avilable**
+    This informs the decoder to prefer hardware accelerated decode if available on the system.
+	
+**Enable Hardware Texture Output**
+    This informs the decoder to prefer leaving the decoded textures in gpu memory.
+	
+**Enable Audio**
+	This informs the playback engine to include audio if available.
+	
 [Details] Playback Info
 -----------------------
 
