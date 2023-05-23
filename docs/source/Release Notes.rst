@@ -2,6 +2,18 @@
 Release Notes
 ==================================
 
+v0.6.1
+- [FEATURE ENHANCEMENT] : Added direct gpu<->gpu texture transfer path for hardware accelerated decode. This mode requires the renderer to be D3D11 capable.
+- [FEATURE ENHANCEMENT] : Added a toggle to enable/disable audio.
+- [BUGFIX] : Set the default project AA algorithm to FXAA instead of temporalAA
+- [BUGFIX] : Bugfix for excessive gpu memory use.
+- [BUGFIX] : Bugfix for Seek to beginning of file playback.
+- [BUGFIX] : Bugfix for PixelStreaming within UE5
+
+v0.5.2
+------
+- [BUGFIX] Bugfix for preview mesh crash in packaged builds.
+
 v0.5.1
 ------
 - [FEATURE ENHANCEMENT] More performant texture uploads
@@ -20,8 +32,8 @@ v0.5.0
 v0.4.0
 ------
 
-- [FEATURE ENANCEMENT] Improves audioless asset render
-- [FEATURE ENANCEMENT] Adds convience methods for asset status
+- [FEATURE ENHANCEMENT] Improves audioless asset render
+- [FEATURE ENHANCEMENT] Adds convience methods for asset status
 
 v0.3.2
 ------
